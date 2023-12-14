@@ -1,3 +1,4 @@
 *.env
 *.vscode
 *.venv
+mongo_workaround copy.py
