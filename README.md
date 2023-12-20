@@ -34,7 +34,6 @@ This file is used to lock the versions of Node.js package dependencies. It ensur
 Lists all the Python package dependencies required for the project. This file is used to easily install all required Python packages.
 
 ## Getting Started
-## Getting Started
 
 To get started with the WasserAnalytik Monitoring project, follow these steps:
 
