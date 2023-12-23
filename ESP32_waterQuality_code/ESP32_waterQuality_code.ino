@@ -293,16 +293,6 @@ void init_LTE(){
     }
 #endif
 
-#if TINY_GSM_USE_WIFI
-    // Wifi connection parameters must be set before waiting for the network
-    SerialMon.print(F("Setting SSID/password..."));
-    if (!modem.networkConnect(wifiSSID, wifiPass)) {
-        SerialMon.println(" fail");
-        delay(10000);
-        return;
-    }
-    SerialMon.println(" success");
-#endif
 
 #if TINY_GSM_USE_GPRS && defined TINY_GSM_MODEM_XBEE
     // The XBee must run the gprsConnect function BEFORE waiting for network!
